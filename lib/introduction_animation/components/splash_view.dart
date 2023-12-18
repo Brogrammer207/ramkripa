@@ -1,3 +1,4 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 
 class SplashView extends StatefulWidget {
@@ -59,6 +60,7 @@ class _SplashViewState extends State<SplashView> {
               child: InkWell(
                 onTap: () {
                   widget.animationController.animateTo(0.2);
+                  AudioPlayer().play(AssetSource('audio/om.mp3'));
                 },
                 child: Container(
                   height: 58,

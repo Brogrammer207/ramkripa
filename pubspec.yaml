@@ -40,6 +40,8 @@ dependencies:
   intl: ^0.17.0
   animations: ^2.0.3
   get: ^4.6.6
+  audioplayers: ^5.2.1
+  path_provider: ^2.1.1
 
 dev_dependencies:
   flutter_test:
@@ -67,6 +69,7 @@ flutter:
   assets:
     - assets/images/
     - assets/introduction_animation/
+    - assets/audio/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
