@@ -90,7 +90,7 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.ram" "\0"
-            VALUE "FileDescription", "ramkripa" "\0"
+            VALUE "Filedesription", "ramkripa" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "ramkripa" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 com.ram. All rights reserved." "\0"
